@@ -41,3 +41,10 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+.background {
+  width: 30%;
+  height: 100vh;
+  background-image: url('images/background.jpg');
+  background-size: cover;
+}
