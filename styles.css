@@ -210,3 +210,16 @@ button[type="submit"]:hover {
 	border-radius: 4px;
 	border: 1px solid #E5E7EB;
 }
+
+input {
+	outline: none;
+}
+
+input:invalid {
+	border-color: #df3838;
+}
+
+input:focus {
+	border-color: #59c2dd;
+	box-shadow: 0 0 10px #719ECE;
+}
