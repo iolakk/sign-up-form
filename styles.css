@@ -86,8 +86,9 @@ a {
   height: 35%;
 }
 
-.form-section {
+.form-middle {
   height: 30%;
+	box-shadow: 0px 15px 16px -19px #000000;
 }
 
 .account-section {
