@@ -56,10 +56,12 @@ table {
 }
 
 /* CSS */
+
+* {
+  box-sizing: border-box;
+}
 body {
   display: flex;
-  box-sizing: border-box;
-
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -86,13 +88,8 @@ a {
   height: 35%;
 }
 
-.form-middle {
-  height: 30%;
-	box-shadow: 0px 15px 16px -19px #000000;
-}
-
 .account-section {
-  height: 35%;
+  height: 30%;
 } 
 
 img[src="./images/odin-lined.png"] {
@@ -154,6 +151,7 @@ img[src="./images/odin-lined.png"] {
 	margin: 2.2rem 0 0 3.5rem;
 }
 
+/* ACCOUNT SECTION */
 .account-section a {
 	color: #3d4c30;
 	text-decoration: none;
@@ -173,4 +171,42 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
 	cursor: pointer;
+}
+
+/* FORM SECTION */
+.form-middle {
+  height: 30%;
+	box-shadow: 0px 15px 16px -19px #000000;
+	padding: 0 0 0 3rem;
+}
+
+.form-middle h1 {
+	font-size: 1.5rem;
+	font-weight: 600;
+	color: #343131;
+	margin: 1rem 0;
+}
+
+.form-section label {
+	display: block;
+	letter-spacing: 0.15rem;
+	font-size: 0.7rem;
+	font-weight: 500;
+}
+
+.form-section {
+	display: flex;
+	margin: 1rem 0;
+}
+
+.form-section p {
+	margin-right: 5rem;
+}
+
+.form-section input {
+	padding: 0.3rem;
+	font-size: 1.2rem;
+	width: 30ch;
+	border-radius: 4px;
+	border: 1px solid #E5E7EB;
 }
