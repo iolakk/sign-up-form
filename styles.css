@@ -146,3 +146,31 @@ img[src="./images/odin-lined.png"] {
 	margin-top: 1.2rem;
 	margin-bottom: 3rem;
 }
+
+.account-section {
+	font-size: 1rem;
+	font-weight: 500;
+
+	margin: 2.2rem 0 0 3.5rem;
+}
+
+.account-section a {
+	color: #3d4c30;
+	text-decoration: none;
+}
+
+button[type="submit"] {
+	font-size: 1rem;
+	font-weight: 600;
+	background-color: #596D48;
+	color: white;
+
+	border: none;
+	padding: 0.8rem 2.5rem;
+	margin-bottom: 1.8rem;
+	border-radius: 8px;
+}
+
+button[type="submit"]:hover {
+	cursor: pointer;
+}
